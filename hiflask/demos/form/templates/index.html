@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}index{% endblock %}
+{% block content %}
+<h1>Forms</h1>
+<p>Welcome to index page!</p>
+<ul>
+    <li><a href="{{ url_for('html') }}">Pure_Form</a></li>
+    <li><a href="{{ url_for('basic') }}">Basic</a></li>
+</ul>
+{% endblock %}

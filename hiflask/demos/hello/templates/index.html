@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}index{% endblock %}
+{% block content %}
+<h1>This is index page</h1>
+<p>Welcome to index page!</p>
+<ul>
+    <li><a href="{{ url_for('html') }}">pure.html</a></li>
+    <li><a href="{{ url_for('basic') }}">basic</a></li>
+</ul>
+{% endblock %}

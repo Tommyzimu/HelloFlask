@@ -12,8 +12,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Flask Main" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -21,16 +21,20 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/demos/form/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demos/hello" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\flask开发\hiflask\demos\hello" />
+      <recent name="E:\flask开发\hiflask\demos\hello\templates" />
+      <recent name="E:\flask开发\hiflask\demos\form\static" />
       <recent name="E:\flask开发\hiflask\demos\form\templates" />
       <recent name="E:\flask开发\hiflask\demos\form" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\flask开发\hiflask\demos\template" />
       <recent name="E:\flask开发\hiflask\demos" />
+      <recent name="E:\flask开发\hiflask\demos\template" />
       <recent name="E:\flask开发\hiflask\demos\templates" />
       <recent name="E:\flask开发\hiflask" />
       <recent name="E:\flask开发\hiflask\http" />
@@ -48,7 +52,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Flask server.Flask (demos/form/app.py)">
+    <configuration name="Flask (demos/form/app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <module name="hiflask" />
+      <option name="target" value="$PROJECT_DIR$/demos/form/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
     <configuration name="hiflask" type="Python.FlaskServer">
       <module name="hiflask" />
       <option name="target" value="$PROJECT_DIR$/demos/template/app.py" />
@@ -64,6 +83,11 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flask server.Flask (demos/form/app.py)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -75,7 +99,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574042673839</updated>
-      <workItem from="1574042677381" duration="67282000" />
+      <workItem from="1574042677381" duration="69793000" />
+      <workItem from="1574730902386" duration="5981000" />
+      <workItem from="1574738681227" duration="4172000" />
+      <workItem from="1574749479111" duration="5464000" />
     </task>
     <servers />
   </component>
@@ -83,6 +110,7 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/hiflask$Flask__demos_form_app_py_.coverage" NAME="Flask (demos/form/app.py) Coverage Results" MODIFIED="1574751838020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hiflask$hiflask.coverage" NAME="hiflask Coverage Results" MODIFIED="1574046890176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
