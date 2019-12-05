@@ -1,10 +1,35 @@
 {% extends 'base.html' %}
 {% block title %}index{% endblock %}
 {% block content %}
-<h1>Forms</h1>
-<p>Welcome to index page!</p>
-<ul>
-    <li><a href="{{ url_for('html') }}">Pure_Form</a></li>
-    <li><a href="{{ url_for('basic') }}">Basic</a></li>
-</ul>
+    <h1>Forms</h1>
+    <p>Welcome to index page!</p>
+    <ul>
+        <li><a href="{{ url_for('html') }}">Pure_Form</a></li>
+        <li><a href="{{ url_for('basic') }}">Basic</a></li>
+    </ul>
+    <p>如果时间早于20:00，会问候"Good day"。</p>
+    <p id="demo"></p>
+    <button onclick="myFunction()">点击这里</button><br>
+    <script>
+        var firstname;
+        firstname = "Yimmy";
+        document.write(firstname);
+        document.write("<br>");
+        firstname = "Tommy";
+        document.write(firstname);
+
+        //document.write("<br>");
+
+        function myFunction() {
+            var x = "";
+            var time = new Date().getHours();
+            if (time < 20) {
+                x = "Good day";
+            } else {
+                x = "Good evening";
+            }
+            document.getElementById("demo").innerHTML = x;
+        }
+
+    </script>
 {% endblock %}
